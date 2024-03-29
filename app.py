@@ -1,13 +1,9 @@
-import time
-import numpy as np
 import pandas as pd
 import sqlite3
 import plotly.express as px
 import streamlit as st
 from datetime import datetime
-import plotly.graph_objects as go
 from dateutil.relativedelta import relativedelta
-from streamlit_card import card
 from sklearn.linear_model import LinearRegression
 
 # configuración general de la página web

@@ -94,7 +94,7 @@ with placeholder.container():
     # create two columns for charts
     fig_col1, fig_col2 = st.columns(2)
     with fig_col1:
-        st.markdown("### Ventas por Produto y Medio de Pago")
+        st.markdown("### Ventas por Producto y Medio de Pago")
 
         # Calcular el total vendido por cada medio de pago para cada producto
         df_porcentaje = df.groupby(['producto', 'medio_pago'])['total_pagado'].sum().reset_index()
